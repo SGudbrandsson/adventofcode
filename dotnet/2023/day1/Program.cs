@@ -6,12 +6,6 @@ using System.Text;
 var usage = "USAGE: ./dayN INPUTFILE";
 string file = "../../../input.txt";
 
-// if (args.Length < 1)
-// {
-//     Console.WriteLine(usage);
-//     return 1;
-// }
-
 if (args.Length > 0)
 {
     file = args[0];
@@ -82,3 +76,4 @@ int ParseLine(string input, bool convertStrings = false)
     }
     return 0;
 }
+
